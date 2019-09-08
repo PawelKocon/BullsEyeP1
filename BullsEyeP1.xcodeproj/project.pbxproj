@@ -15,6 +15,7 @@
 		37B20BEB232507240091B00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B20BE9232507240091B00B /* LaunchScreen.storyboard */; };
 		37B20BF6232507240091B00B /* BullsEyeP1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B20BF5232507240091B00B /* BullsEyeP1Tests.swift */; };
 		37B20C01232507240091B00B /* BullsEyeP1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B20C00232507240091B00B /* BullsEyeP1UITests.swift */; };
+		37B20C0F232535A90091B00B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B20C0E232535A90091B00B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		37B20BFC232507240091B00B /* BullsEyeP1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeP1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B20C00232507240091B00B /* BullsEyeP1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeP1UITests.swift; sourceTree = "<group>"; };
 		37B20C02232507240091B00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B20C0E232535A90091B00B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		37B20BD2232507210091B00B = {
 			isa = PBXGroup;
 			children = (
+				37B20C0E232535A90091B00B /* Default-568h@2x.png */,
 				37B20BDD232507220091B00B /* BullsEyeP1 */,
 				37B20BF4232507240091B00B /* BullsEyeP1Tests */,
 				37B20BFF232507240091B00B /* BullsEyeP1UITests */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37B20BEB232507240091B00B /* LaunchScreen.storyboard in Resources */,
+				37B20C0F232535A90091B00B /* Default-568h@2x.png in Resources */,
 				37B20BE8232507240091B00B /* Assets.xcassets in Resources */,
 				37B20BE6232507220091B00B /* Main.storyboard in Resources */,
 			);
@@ -440,7 +444,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Pawel.BullsEyeP1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pawel.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +461,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Pawel.BullsEyeP1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pawel.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
